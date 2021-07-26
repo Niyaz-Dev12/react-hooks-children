@@ -7,6 +7,8 @@ function Container({
   direction = "horizontal", // possible values: verical, horizontal
   contentPosition = "center", // possible values: left, right, center
 }) {
+
+  console.log(textPosition);
   return (
     <div className={`container ${textPosition}`}>
       {header ? <h2>{header}</h2> : null}
